@@ -7,7 +7,7 @@
  * Example Output: "hello world"
  */
 
-console.log('hello world')
+console.log('Hello world');
 
 /* Challenge #1
  * Create a variable and print the value
@@ -18,7 +18,8 @@ console.log('hello world')
  *
  * Example Output: n/a
  */
-
+var name = "Jaymond";
+ console.log(name);
 // TODO: ADD CODE HERE
 
 /* Challenge #2
@@ -31,6 +32,10 @@ console.log('hello world')
  *
  * Example Output: "Elizabeth Thompson"
  */
+ var firstName = "Jaymond";
+ var lastName = "Lockley";
+
+ console.log(`${firstName} , ${lastName}`);
 
 // TODO: ADD CODE HERE
 
@@ -45,7 +50,10 @@ console.log('hello world')
  *
  * Example Output: "$49.90"
  */
-
+let price = 9.98;
+ let quantity = 5;
+ let total = (price * quantity);
+ console.log (total.toFixed(2));
 // TODO: ADD CODE HERE
 
 /* Challenge #4
@@ -61,7 +69,14 @@ console.log('hello world')
  *
  * Example Output: "Aww! It's not sunny outside"
  */
-
+let weather = 'Rainy';
+let message;
+if (weather = "sunny" ){
+	message= "Yay"
+}else	{
+	message= "Aww! It\'s not sunny outside"
+;}
+console.log (message);
 // TODO: ADD CODE HERE
 
 /* Challenge #5
@@ -74,8 +89,11 @@ console.log('hello world')
  *
  * Example Output: "I called a function!"
  */
-
-// TODO: ADD CODE HERE
+function myFunction() {
+     return "Mangos are the best fruit";
+   }
+   console.log(myFunction());
+   // TODO: ADD CODE HERE
 
 /* Challenge #6
  * Rewrite the function in Challenge #5 as an arrow function
@@ -87,6 +105,11 @@ console.log('hello world')
  *
  * Example Output: "I called an arrow function!"
  */
+let myArrowFunction = () => {
+     return "Random string ";
+   };
+
+   console.log (myArrowFunction());
 
 // TODO: ADD CODE HERE
 
@@ -101,7 +124,9 @@ console.log('hello world')
  *
  * Example Output: "WHY AM I SCREAMING"
  */
-
+ function stringToUpper(str){ return
+ 	str.toUpperCase();}
+console.log(stringToUpper("The beat go off "));
 // TODO: ADD CODE HERE
 
 /* Challenge #8
@@ -118,5 +143,14 @@ console.log('hello world')
  *
  * Example Output: 2, 10, 20
  */
+function multiplyByTwo (number) { return  number *2
 
+;}
+
+
+ let num1 = multiplyByTwo(1);
+ let num2 = multiplyByTwo(5);
+ let num3 = multiplyByTwo(10);
+
+ console.log(num1, num2, num3);
 // TODO: ADD CODE HERE
